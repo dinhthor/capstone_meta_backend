@@ -1,19 +1,21 @@
 # capstone_meta_backend
 
-API:
-/restaurant/menu/
-/restaurant/menu/x
-/restaurant/booking/tables/1/
 
+## API
 
-Files to check:
+- /restaurant/menu
+- /restaurant/menu/<id>
+- /restaurant/booking/tables
+- /restaurant/booking/tables/<id>
 
-littlelemon/setting.py
-littlelemon/url.py
+## FILES NEED TO CHECKS
+- littlelemon/setting.py 
+- littlelemon/url.py
 
-restaurant/models.py
-restaurant/views.py
-restaurant/serializers.py
-restaurant/urls.py
+- restaurant/models.py 
+- restaurant/views.py 
+- restaurant/serializers.py 
+- restaurant/urls.py
+- restaurant/admin.py
 
-tests/*
+- tests/*
